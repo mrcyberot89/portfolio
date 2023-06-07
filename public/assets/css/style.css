@@ -1,0 +1,118 @@
+body {
+    padding: 0px !important;
+}
+.navbar-brand {
+    color: #fff;
+}
+.navbar-brand:hover {
+    color: #bb8d41 ;
+}
+.navbar-brand img {
+    height: 30px;
+    width: 200px;
+}
+li.nav-item a {
+    color: #fff;
+}
+li.nav-item a.nav-link:hover {
+    color: #bb8d41 !important;
+}
+li a.dropdown-item {
+    color: #fff;
+}
+ul.dropdown-menu {
+    background-color:  #393646;
+}
+.dropdown-menu li a:hover {
+   background-color: #bb8d41;
+}
+.nav-link:focus {
+    color: #bb8d41 !important;
+}
+.navbar-toggler-icon {
+    color: red;
+}
+.btn {
+    background-color: grey;
+    border-radius: 20px !important;
+    padding-top: 5px;
+}
+.navbar-toggler-icon{
+    color: red!important;
+}
+
+.btn:hover{
+    background-color: #9BABB8 !important;
+    color: #fff;
+}
+
+
+.menu-custom  {
+    border: 1px solid black;
+    background-color: #112045;
+    height: 100px; 
+    width: auto;
+    justify-content: center;
+    align-item: center;
+    opacity: 90%;
+}
+.banner-image {
+    background-image: url(<?= base_url()?>assets/image/top.jpg);
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
+.material-symbols-outlined {
+    color: white;
+}
+h1 {
+    color: #fff;
+}
+.image {
+    align-items: center;
+    justify-content: center;
+    text-align:right;
+}
+
+/** card **/
+.about {
+    text-align: center;
+}
+.about  p{
+    color: #fff;
+}
+h2 {
+    color: #fff;
+    margin-top: 70px;
+    float: left;
+}
+h1 {
+    color: #fff;
+    margin-top: 130px;
+    float: left; 
+}
+h3 {
+    color: #fff;
+}
+p {
+    color: #fff;
+}
+.foto {
+    border: 1px solid #fff;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    float: right;
+    margin: 0 auto;
+    padding-top: 0px;
+    margin-right: 75px;
+    justify-content: center;
+    align-items: center;
+}
+#welcome {
+ margin: 0 auto;
+}
